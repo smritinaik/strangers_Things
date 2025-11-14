@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strangers Things</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/benguiat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/benguiat-bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0c0b0b;
+            background-image:
+                repeating-linear-gradient(to right, transparent 0 99px,
+                    #ff000822 106px 106px),
+                repeating-linear-gradient(to bottom, transparent 0 99px,
+                    #e60e0e22 106px 106px);
+        }
+
+        body::before {
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SECTION 1 -->
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/strange_1.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/strange_2.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/strange_3.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/strange_4.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/strange_5.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/strange_6.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/strange_7.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/strange_8.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/strange_9.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/strange_10.jpg" alt=""></div>
+        </div>
+        <div class="adjustment">
+            <div class="content">
+                <h1 >
+                    STRANGER THINGS 
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------- -->
+
+
+
+
+    <!-- SECTION 2 -->
+
+    <div class="container">
+        <div class="left-content">
+            <h1 class="heading">ONE LAST TIME</h1>
+            <p class="description">
+                Step into the Upside Down, where reality twists and shadows whisper. Power meets mystery as darkness
+                awakens in Hawkins. This world isn’t just haunted — it’s engineered to pull you in, and it won’t let go.
+
+
+            </p>
+            <button class="enquire-btn">CODE RED</button>
+        </div>
+
+        <model-viewer src="/3Dmodels/stranger_things_demogorgon_animated.glb" camera-controls autoplay disable-zoom
+            exposure="0.9" field-of-view="24deg" camera-orbit="19deg 125deg  " shadow-intensity="6.9">
+        </model-viewer>
+    </div>
+    <!-- ------ -->
+
+
+
+
+<!-- SECTION 3 -->
+<section class="stranger-section">
+    <div class="video-container">
+      <video autoplay muted loop playsinline>
+        <source src="/video/Stranger things .mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+  
+      <h2 class="stranger-title">Upside Down</h2>
+    </div>
+  </section>
+  
+</body>
+
+</html>
