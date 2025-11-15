@@ -515,7 +515,7 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   color: transparent;                /* text is empty */
-  -webkit-text-stroke: 2px #ff0000;  /* red outline */
+  -webkit-text-stroke: 2px #af0505;  /* red outline */
   text-align: center;
   margin: 40px 0;
 
