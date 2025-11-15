@@ -601,3 +601,50 @@
 
 
 /* ------ */
+
+
+
+
+
+/* FOOTER */
+.custom-footer {
+  background: #000;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Times New Roman', serif;
+  border-top: 2px solid #ff0000;
+}
+
+.custom-footer p {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.custom-footer span {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.footer-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-link {
+  font-size: 28px;
+  color: #ff0000;
+  transition: 0.3s ease;
+}
+
+.icon-link:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+/* ------ */
